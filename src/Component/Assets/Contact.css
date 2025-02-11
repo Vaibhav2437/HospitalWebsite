@@ -1,0 +1,27 @@
+.contacts{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width:80%;
+}.contact{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+}
+.from{
+    width:50%;
+    padding: 2px;
+}
+.from input{
+    padding: 10px;
+    margin: 0;
+}
+.map{
+    width:50%;
+    margin-left: 10px;
+}
+.sendbutton{
+    width: 100%;
+    padding: 10px;
+    background-color: #1FAB89;
+    color: #fff;
+}

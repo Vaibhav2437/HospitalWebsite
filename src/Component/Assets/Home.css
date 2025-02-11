@@ -1,0 +1,220 @@
+.banner{
+  width: 100%;
+}
+.contain {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+.display-1{
+  width: 60%;
+  margin-top: 6rem;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.healthcontent{
+  width:70%;
+}
+.read{
+  width:15%;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+  color:#62D2A2;
+}
+/* Content Section */
+.content {
+  width: 63%;
+  text-align: left;
+  color: #fff;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  text-align: left;
+  width: 50%;
+  font-size: 3rem;
+}
+
+/* Read More Button */
+.readmore {
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 9px;
+}
+
+.readmore a {
+  color: #62D2A2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Department Section */
+.department {
+  margin: 76px 0;
+}
+
+/* Cards Section */
+.cards {
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 24%;
+  border: none;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; */
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* .card:hover {
+  transform: translateY(-5px);
+} */
+
+/* Image inside Card */
+.image {
+  background-color: #62D2A2;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Diagnosis Image */
+.dia {
+  height: 50px;
+  width: 45px;
+}
+
+/* View More Button */
+.viewmore {
+  max-width: 200px;
+  width: auto;
+  margin: 40px auto;
+  color: #fff;
+  background-color: #62D2A2;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.viewmore a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Section */
+.about {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* About Image */
+.aboutimg {
+  width: 48%;
+}
+
+.aboutimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* About Content */
+.about-cont {
+  width: 48%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+/* About More Button */
+.aboutmore {
+  max-width: 200px;
+  width: auto;
+  background-color: #62D2A2;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.aboutmore a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .content h1 {
+      font-size: 2.5rem;
+      width: 60%;
+  }
+
+  .card {
+      width: 48%;
+      margin-bottom: 20px;
+  }
+
+  .about {
+      flex-direction: column;
+  }
+
+  .aboutimg,
+  .about-cont {
+      width: 100%;
+      text-align: center;
+  }
+
+  .about-cont {
+      padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contain {
+      justify-content: center;
+      text-align: center;
+      padding-left: 0;
+  }
+
+  .content {
+      width: 90%;
+  }
+
+  .content h1 {
+      font-size: 2rem;
+      width: 100%;
+  }
+
+  .card {
+      width: 100%;
+  }
+
+  .aboutimg img {
+      width: 100%;
+  }
+}

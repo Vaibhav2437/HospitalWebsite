@@ -1,0 +1,33 @@
+.doctorlist{
+
+    padding-top: 6rem;
+    background-color: #178066;
+    color: #fff;
+    padding-bottom: 6rem;
+    font-weight: normal;
+}
+.card{
+    padding: 0;
+    width:29%
+}
+.doctor-list{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.doctor-list a{
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 20%;
+    text-decoration: none;
+    background-color: #1FAB89;
+}
+.dolists{
+    width: 80%;
+}

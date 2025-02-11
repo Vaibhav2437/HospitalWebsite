@@ -1,0 +1,12 @@
+.content{
+    width:50%;
+    color: #000;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.content h1{
+    width:100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}

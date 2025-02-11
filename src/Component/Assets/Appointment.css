@@ -1,0 +1,25 @@
+.appointmentimg{
+    width:100%;
+}
+.appointmentimg img{
+    width: 100%;
+    height: 370px;
+}
+.appoint{
+    display: flex;
+    justify-content: space-evenly;
+    width:90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.touch{
+    width: 90%;
+    margin: auto;
+}
+/* .detail{
+    width:80%
+} */
+ .appoin{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+ }

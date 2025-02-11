@@ -1,0 +1,24 @@
+{
+  "patient": [
+    {
+      "id": "a093",
+      "fname": "vaibhav",
+      "contact": "7768841242",
+      "email": "vaibh41@gmail.com",
+      "city": "Nagpur",
+      "date": "2025-02-06",
+      "gender": "male",
+      "message": ""
+    },
+    {
+      "id": "2705",
+      "fname": "abc",
+      "contact": "7765425252",
+      "email": "abc@gmail.com",
+      "city": "ramtek",
+      "date": "2025-02-06",
+      "gender": "male",
+      "message": ""
+    }
+  ]
+}
